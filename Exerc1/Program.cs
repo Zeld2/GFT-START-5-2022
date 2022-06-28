@@ -1,6 +1,4 @@
 ﻿
-using Exerc1.Entities;
-
 Console.WriteLine("Construindo matriz....");
 
 Console.WriteLine("Qual será o numero de linhas?");
