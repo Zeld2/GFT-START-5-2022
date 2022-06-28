@@ -1,0 +1,15 @@
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\bin\Debug\net6.0\Exerc2.exe
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\bin\Debug\net6.0\Exerc2.deps.json
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\bin\Debug\net6.0\Exerc2.runtimeconfig.json
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\bin\Debug\net6.0\Exerc2.dll
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\bin\Debug\net6.0\Exerc2.pdb
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\obj\Debug\net6.0\Exerc2.csproj.AssemblyReference.cache
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\obj\Debug\net6.0\Exerc2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\obj\Debug\net6.0\Exerc2.AssemblyInfoInputs.cache
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\obj\Debug\net6.0\Exerc2.AssemblyInfo.cs
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\obj\Debug\net6.0\Exerc2.csproj.CoreCompileInputs.cache
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\obj\Debug\net6.0\Exerc2.dll
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\obj\Debug\net6.0\refint\Exerc2.dll
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\obj\Debug\net6.0\Exerc2.pdb
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\obj\Debug\net6.0\Exerc2.genruntimeconfig.cache
+C:\Users\Zeld\workspace\GFT-START-5-2022\Exerc2\obj\Debug\net6.0\ref\Exerc2.dll
