@@ -19,7 +19,7 @@ namespace Exerc2.Entities
             if (Dias <=30) return Valor - Valor * 0.04;
             else if (Dias <= 60) return Valor - Valor * 0.065;
             else if (Dias <= 90) return Valor - Valor * 0.85;
-            else return Valor - (Valor *0.085 + (double)Dias/30 * 0.02);
+            else return Valor - (Valor *0.085 + Valor * ((double)Dias-90)/30 * 0.02);
         }
     }
 }

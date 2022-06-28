@@ -20,7 +20,7 @@ while (loop)
         System.Console.WriteLine("Qual o prazo de vencimento em dias?");
         dias = Int32.Parse(Console.ReadLine());
         var cheque = new Cheque(valor, dias);
-        System.Console.WriteLine($"Valor a ser recebido: R${cheque.calcularValorRecebivel()}");
+        System.Console.WriteLine($"Valor a ser recebido: R${cheque.calcularValorRecebivel().ToString("F")}");
         loop = false;
             break;
         case 2:
@@ -29,7 +29,7 @@ while (loop)
         System.Console.WriteLine("Qual o prazo de vencimento em dias?");
         dias = Int32.Parse(Console.ReadLine());
         var promissoria = new Promissoria(valor, dias);
-        System.Console.WriteLine($"Valor a ser recebido: R${promissoria.calcularValorRecebivel()}");
+        System.Console.WriteLine($"Valor a ser recebido: R${promissoria.calcularValorRecebivel().ToString("F")}");
         loop = false;
             break;
         case 3:
@@ -38,7 +38,7 @@ while (loop)
         System.Console.WriteLine("Qual o prazo de vencimento em dias?");
         dias = Int32.Parse(Console.ReadLine());
         var tituloGoverno = new TituloGoverno(valor, dias);
-        System.Console.WriteLine($"Valor a ser recebido: R${tituloGoverno.calcularValorRecebivel()}");
+        System.Console.WriteLine($"Valor a ser recebido: R${tituloGoverno.calcularValorRecebivel().ToString("F")}");
         loop = false;
             break;
         default:
