@@ -11,39 +11,63 @@ Console.WriteLine("Qual será o numero de colunas?");
 
 var colunas = Int32.Parse(Console.ReadLine());
 
-var Matriz = new Matriz(linhas, colunas);
-
-int linha = 0;
-int coluna = 0;
-int count = 0;
-int valorCelula=0;
+int[,] matriz = new int[linhas, colunas];
 
 
-
-while(count< Matriz.Linhas * Matriz.Colunas)
+for (var coluna = 0; coluna < colunas; coluna++)
 {
-    while(coluna<Matriz.Colunas)
+    for (var linha = 0; linha < linhas; linha++)
     {
-    while(linha< Matriz.Linhas)
-    {
-    System.Console.WriteLine($"Qual será o valor da célula de posicão {linha}:{coluna}?");
-    valorCelula = Int32.Parse(Console.ReadLine());
-    var Celula = new Celula(linha, coluna, valorCelula);
-    Matriz.Celulas.Add(Celula);
-    linha ++;
-    count ++;
-    }
-    coluna ++;
-    linha = 0;
+        System.Console.WriteLine($"Qual será o valor da célula de posicão {linha}:{coluna}?");
+        matriz[linha, coluna] = Int32.Parse(Console.ReadLine());
     }
 }
 
-foreach (var item in Matriz.Celulas)
+for (var coluna = 0; coluna < colunas; coluna++)
 {
-    System.Console.WriteLine($"Posição da célula: {item.Row}:{item.Column} | Valor: {item.Value}");
+    for (var linha = 0; linha < linhas; linha++)
+    {
+        System.Console.WriteLine($"");
+
+        System.Console.WriteLine($"Valores ao redor da célula de posicão {linha}:{coluna}");
+        try
+        {
+            var celulaTeste = matriz[linha - 1, coluna];
+            System.Console.WriteLine($"Célula esquerda: {celulaTeste}");
+        }
+        catch (System.Exception ex)
+        {
+            System.Console.WriteLine("Não tem nenhum valor à esquerda.");
+        }
+        try
+        {
+            var celulaTeste = matriz[linha + 1, coluna];
+            System.Console.WriteLine($"Célula direita: {celulaTeste}");
+        }
+        catch (System.Exception ex)
+        {
+            System.Console.WriteLine("Não tem nenhum valor à direita.");
+        }
+        try
+        {
+            var celulaTeste = matriz[linha, coluna - 1 ];
+            System.Console.WriteLine($"Célula acima: {celulaTeste}");
+        }
+        catch (System.Exception ex)
+        {
+            System.Console.WriteLine("Não tem nenhum valor acima.");
+        }
+        try
+        {
+            var celulaTeste = matriz[linha, coluna + 1];
+            System.Console.WriteLine($"Célula abaixo: {celulaTeste}");
+        }
+        catch (System.Exception ex)
+        {
+            System.Console.WriteLine("Não tem nenhum valor abaixo.");
+        }
+    }
 }
-
-
 
 
 
